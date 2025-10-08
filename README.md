@@ -18,29 +18,34 @@ All four share a common dataset design with:
 ---
 
 ## Project Structure
-
+````
 your_project/
-|
-+-- dataloader_final.py
-+-- model_final_new.py
-+-- train.py
-+-- eval.py
-|
-+-- README.md
-+-- data/
-+-- train/
-| +-- class_1/
-| | +-- image1.jpg
-| | +-- ...
-| +-- class_2/
-| +-- ...
-+-- val/
-| +-- class_1/
-| +-- class_2/
-+-- test/
-+-- class_1/
-+-- class_2/
-
+│
+├── dataloader_final.py
+├── model_final_new.py
+├── train.py
+├── eval.py
+│
+├── README.md
+│
+├── data/
+│
+├── train/
+│   ├── class_1/
+│   │   ├── image1.jpg
+│   │   ├── ...
+│   ├── class_2/
+│   │   ├── image1.jpg
+│   │   ├── ...
+│
+├── val/
+│   ├── class_1/
+│   ├── class_2/
+│
+└── test/
+    ├── class_1/
+    └── class_2/
+````
 
 Inside each, create **one folder per class containing the images**.
 
